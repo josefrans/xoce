@@ -4,12 +4,30 @@
 <head>
 
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="shortcut icon" href="img/profile.jpg">
+  <link rel="alternate" type="application/rss+xml" title="Xoce » jose" href="https://xoce.org">
+  <link rel="dns-prefetch" href="//www.google.com">
+  <link rel="alternate" type="application/rss+xml" title="Xoce » jose" href="https://xoce.org">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="xoce">
+  <meta property="og:description" content="xoce">
+  <meta property="article:publisher" content="https://www.facebook.com/frans">
+  <meta property="og:site_name" content="xoce - MX">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="twitter:data1" content="josefrnas">
+  <meta name="shareaholic:language" content="mx">
+  <meta name="shareaholic:site_name" content="Informática para empresas">
+  <meta name="shareaholic:shareable_page" content="true">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link rel="stylesheet" data-href="https://fonts.googleapis.com/css2?family=IBM+Plex Mono:wght@400;500;600;700">
 
-  <title>xoce</title>
+  <title>JoseFransHDZ</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -40,7 +58,7 @@
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">xose</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/xoce.jpg" alt="">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,30 +72,47 @@
         <li class="nav-item"  id='ini'>
           <a class="nav-link js-scroll-trigger" href="blogs.html">Blogs</a>
         </li>
+
+<!--
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="cursos.html">Cursos</a>
+          <a class="nav-link js-scroll-trigger" href="cursos.html">Videos</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="skills.html">habilidades</a>
         </li>
+      -->
+
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="esperiensia.html">Intereses</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="contacto.html">Contacto</a>
         </li>
+        <p class="copyright">© xoce 2021 Todos los derechos reservados.</p>
       </ul>
       
     </div>
 </div>
 <div class="foo_cero">
-  <form action="https://www.paypal.com/donate"  method="post" target="_top">
-    <input type="hidden" name="hosted_button_id" value="SN26G6EJ7UFJU" />
-    <input type="image" src="img/paypal_uno.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-    <img alt="" border="0" src="https://www.paypal.com/en_MX/i/scr/pixel.gif" width="1" height="1" />
-    </form>
+  <div onclick="mostrar()"></div>
   </div>
+ 
   </nav>
+
+  <div  id='oculto' style='display:none;'>
+  
+    <div class="bu" onclick="ocultar()" >x</div>
+
+    <div class="cont">
+
+   <div>
+      <a href="https://www.paypal.com/donate/?token=W-ZGGD9XgC7oDwkmaycvwwqKqKYs_r6C4v1s16yMNrvNlXaLaIRu4Ltz9onDmpuvGdCSv2sgDVlr1AI4" target="_blank"> <img src="img/paypal_donar.png" ></a>
+     
+      <a href="https://mpago.la/1iSiV1R" target="_blank"> <img src="img/mercado_donar.png"></a>
+  </div>
+
+</div>
+  </div>
 
   
     <hr class="m-0">
@@ -88,12 +123,11 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">¿que enseña la progrmacion?</h3>
-            <div class="subheading mb-3">Pensar secuencialmente</div>
+            <h3 class="mb-0">Las palabras</h3>
+            <div class="subheading mb-3"></div>
             <p>
-                la programación te enseña a pensar de manera secuencial, 
-                al igual que la narración. si tiene una meta en la vida ,
-                solo planeas como ir allí.
+              En el mundo hay dos principios: las palabras que pueden transformar
+               el mundo y el mundo que no tiene nada que ver con las palabras…
                 
                 .</p>
           </div>
@@ -104,12 +138,12 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">¿Las historias hacen que las redes sociales sean más adictivas?</h3>
-            <div class="subheading mb-3">Intelitec Solutions</div>
-            <p>A menudo, cuando hablamos de "adicción", es desde el punto de vista de la dependencia
-               química o cuando reaccionamos biológicamente a
-                una sustancia química adictiva. Esto se asocia principalmente 
-              con el alcoholismo, la adicción a las drogas y, recientemente, la epidemia de opioides . .</p>
+            <h3 class="mb-0">lenguas largas</h3>
+            <div class="subheading mb-3"></div>
+            <p>Los lenguas largas cuentan todo lo que saben y,
+              a veces, lo que no saben, y
+              se defienden diciendo que son francos, claros, sinceros y
+              espontáneos.. .</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">febrero 2021 </span>
@@ -118,18 +152,12 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">TIPOS DE ATAQUES Y VULNERABILIDADES</h3>
-            <div class="subheading mb-3">Ingeniería Social.</div>
-            <p>Consiste en persuadir a los usuarios para que ejecuten acciones o revelen la
-              información para superar las barreras de seguridad.</p>
-              <div class="subheading mb-3">Negación de servicio.</div>
-              <p>Es un tipo de ataque cuya meta fundamental es la de impedir el uso legítimo o
-                negar el acceso a un recurso determinado.</p>
-                <div class="subheading mb-3">Fuerza Bruta.</div>
-                <p>Consiste en realizar todas las combinaciones posibles de un
-                  conjunto de caracteres. En el siguiente cuadro se ve el tiempo de búsqueda de
-                  una contraseña de acuerdo a la longitud y tipo de caracteres utilizados.</p>
-          </div>
+            <h3 class="mb-0">Vistete de humildad</h3>
+            <div class="subheading mb-3"></div>
+            <p>Al vestirte con humildad y paciencia, motivarás los
+              corazones de las personas a tu cuidado a buscar la gracia que no
+              saben que necesitan.</p>
+             
           <div class="resume-date text-md-right">
             <span class="text-primary">enero 2021 </span>
           </div>
@@ -160,6 +188,7 @@ overlay.style.display = 'none';
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
+  <script src="js/app.js"></script>
 
 </body>
 
