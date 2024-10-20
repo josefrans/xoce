@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+            body{
+                background-image: url('https://images.pexels.com/photos/2246476/pexels-photo-2246476.jpeg?cs=srgb&dl=pexels-maxime-francis-2246476.jpg&fm=jpg');
+            }
+            #myBtn{
+                background-color: brown;
+                width: 200px;
+                height: 50px;
+            }
+            #oculto{
+                width: 80%;
+                height: 100%;
+                position: relative;
+                margin: auto;
+                background-color: rgba(28, 29, 29, 0.5);
+              
+            }
+            .cont{
+                position: relative;
+                top: 150px;
+                width: 70%;
+              margin: auto;
+               
+            }
+            .but{
+                color: seashell;
+                font-size: 70px;
+                float: right;
+                position: relative;
+                top: 0px;
+                cursor: pointer;
+                margin-right: 30px;
+            }
+
+   
+            .cont img{
+               width: 30%;
+               
+            }
+            .cont a{
+
+                
+                margin-right: 30%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <button id="myBtn" onclick="mostrar()"></button>
+       
+
+       
+
+<div  id='oculto' style='display:none;'>
+
+   
+
+    <div class="but" onclick="ocultar()" >x</div>
+
+      <div class="cont">
+
+     <div>
+        <a href="https://www.paypal.com/donate/?token=W-ZGGD9XgC7oDwkmaycvwwqKqKYs_r6C4v1s16yMNrvNlXaLaIRu4Ltz9onDmpuvGdCSv2sgDVlr1AI4" target="_blank"> <img src="img/paypal_donar.png" ></a>
+       
+        <a href="https://mpago.la/1iSiV1R" target="_blank"> <img src="img/mercado_donar.png"></a>
+    </div>
+
+    <!------pago---playpal------->
+    
+       
+       
+<!----------fin-------------------->
+
+</div>
+
+    </div>
+
+</div>
+
+        <script>
+      function mostrar(){
+          document.getElementById('oculto').style.display = 'block';
+      }
+      function ocultar(){
+          document.getElementById('oculto').style.display = 'none';
+      }
+
+      function pago(){
+          document.getElementById('pagos').style.display = 'block';
+      }
+
+        </script>
+    </body>
+</html>
